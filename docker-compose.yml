@@ -383,7 +383,7 @@ services:
     environment:
       - TZ=${TZ}
       - HOSTNAME="Docker Plex"
-      - PLEX_CLAIM="claim-ajq7q3s7JX4txGoW9q7j"
+      - PLEX_CLAIM=""
       - PLEX_UID=${PUID}
       - PLEX_GID=${PGID}
       - ADVERTISE_IP="http://192.168.1.27:32400/"
